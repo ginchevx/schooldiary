@@ -243,4 +243,16 @@ export const Messages: React.FC = () => {
                       onClick={handleSendMessage}
                       className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-primary-dark"
                     >
-                      <PaperAirplaneIcon className="h-4 w-4 mr
+                      <PaperAirplaneIcon className="h-4 w-4 mr-2" />
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
