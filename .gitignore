@@ -27,3 +27,6 @@ firebase-debug.log
 
 # vercel
 .vercel
+git add -f src/App.tsx
+git commit -m "Force add App.tsx"
+git push origin main
