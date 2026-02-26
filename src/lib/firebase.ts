@@ -11,6 +11,11 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+// Check if connected
+console.log('Firebase Connected to Project:', process.env.REACT_APP_FIREBASE_PROJECT_ID);
+
 export const auth = getAuth(app);
 export const db = getFirestore(app);
